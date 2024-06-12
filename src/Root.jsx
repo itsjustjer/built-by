@@ -9,7 +9,11 @@ export default function Root() {
             <NavLink to="junior"
             className="juniorNavLink">
                 Junior
-            </NavLink>   
+            </NavLink>  
+            <NavLink to ="senior"
+            className="seniorNavLink">
+                Senior 
+                </NavLink> 
         </section>
         <h1 className="rooth1"> I'm just going to get this one chance...</h1>
         <section className="rootSectionB">

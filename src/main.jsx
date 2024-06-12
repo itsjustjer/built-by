@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Junior from './Junior.jsx';
+import Senior from './Senior.jsx';
 import App from './App.jsx'
 import './index.css'
 import Root from "./Root.jsx";
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
       {
         path: "junior",
         element: <Junior />,
+      },
+      {
+        path: "senior",
+        element: <Senior/>,
       },
     ], 
   },
