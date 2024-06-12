@@ -6,7 +6,7 @@ export default function Senior() {
         <div className="juniorDiv">
             <section className="JuniorSectionA">
               This is a picture of my dog. Good dog.
-                <img src="../../public/vite.svg" width="100px" height="100px"></img>
+                <img src="/vite.svg" width="100px" height="100px"></img>
             </section>
         </div>
         </>
