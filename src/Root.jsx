@@ -5,17 +5,21 @@ export default function Root() {
     return (
       <>
        <div className="rootDiv">
+     
+        <h1 className="rooth1"> The rumors about my milkshake are probably true.
+        </h1>
+        <h1 className="rooth1"> I could teach you, but...</h1>
+     
         <section className="rootSectionA">
             <NavLink to="junior"
             className="juniorNavLink">
-                Junior
+              June Eeyore
             </NavLink>  
             <NavLink to ="senior"
             className="seniorNavLink">
-                Senior 
+                Senor Else
                 </NavLink> 
         </section>
-        <h1 className="rooth1"> I'm just going to get this one chance...</h1>
         <section className="rootSectionB">
             <Outlet/>
         </section>

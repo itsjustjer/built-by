@@ -10,7 +10,7 @@ export default function Junior() {
                Now who thinks their arms are long enough to slapbox?
             </section>
             <section className="JuniorSectionB">
-                <img src="../../public/vite.svg" width="100px" height="100px"></img>
+           
             </section>
         </div>
         </>
