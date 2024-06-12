@@ -1,0 +1,66 @@
+.appDiv {
+  display: grid;
+ 
+  border: solid black 3px;
+}
+.appDiv header > h1 {
+  font-size: 100px;
+  text-align: center;
+margin-bottom: 0;
+}
+
+.appDiv footer {
+  text-align: center;
+  font-size: 14px;
+}
+.appDiv main {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: 1fr;
+  justify-content: space-around;
+
+  
+ 
+  text-align: center;
+  font-size: 30px;
+}
+
+.section1App {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  align-self: center;
+
+  
+}
+
+.section3App {
+  grid-column: 4  / 5;
+  grid-row: 1 / 2;
+  
+ 
+}
+
+.section4App {
+  grid-column: 5 / 6;
+  grid-row: 1 / 2;
+  align-self: center;
+ 
+}
+
+.section2App {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+ 
+}
+
+.sectionBubble1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  width: 100%;
+}
+
+.sectionBubble2 {
+  grid-column: 6 / 7;
+  grid-row: 1 / 2;
+  width: 100%;
+}
