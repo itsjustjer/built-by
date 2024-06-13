@@ -1,0 +1,38 @@
+.splishDiv {
+    color: rgb(255, 136, 0);
+    font-size: 3em;
+    width: 400px;
+    height: 800px;
+    border: solid orange 3px;
+    text-align: center;
+}
+.splishsplashDiv {
+    color: rgb(255, 136, 0);
+    font-size: 3em;
+    width: 400px;
+    height: 800px;
+    border: solid orange 3px;
+}
+.splishsplashDiv p {
+    color: antiquewhite;
+    font-size: 1em;
+}
+.splish-NavLink {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.outlet-section {
+    height: 450px;
+    border: solid red 3px;
+}
+
+.gapGap p {
+    color: antiquewhite;
+    font-size: 1em;
+    place-self: center;
+}
+
+.pFunk {
+    color: rgb(57, 57, 57, 0.5);
+}
