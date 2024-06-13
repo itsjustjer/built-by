@@ -5,9 +5,16 @@ export default function Junior() {
         <>
         <div className="juniorDiv">
             <section className="JuniorSectionA">
-               I'm beginning to feel like a Rap God...<br/>
-               All my people from the front to the back nod <br/>
-               Now who thinks their arms are long enough to slapbox?
+            <h3 className="seniorh3">
+        <br/>
+        - Comics -
+    </h3>
+              *insert humor here* <br/>
+              No, no... the left a little <br/>
+              Down. Down more. I said funny <br/>
+              not confusing. Like funny haha. <br/>
+              Stop laughing. This is serious business.<br/>
+              ;D <br/>
             </section>
             <section className="JuniorSectionB">
            

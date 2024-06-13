@@ -6,8 +6,7 @@ export default function Root() {
       <>
        <div className="rootDiv">
      
-        <h1 className="rooth1"> The rumors about my milkshake are probably true.
-        </h1>
+       
         <h1 className="rooth1"> I could teach you, but...</h1>
      
         <section className="rootSectionA">

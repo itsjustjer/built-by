@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Junior from './Junior.jsx';
 import Senior from './Senior.jsx';
+import Splish from './splish-splash/Splish.jsx';
+import Splash from './Splash.jsx';
+import SplishSplash from './splish-splash/SplishSplash.jsx';
+import Mind from './splish-splash/Mind.jsx';
+import Gap from './splish-splash/Gap.jsx';
+import The from './splish-splash/The.jsx';
 import App from './App.jsx'
 import './index.css'
 import Root from "./Root.jsx";
@@ -10,22 +16,26 @@ import Root from "./Root.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
-    children: [
-      {
-        path: "junior",
-        element: <Junior />,
-      },
-      {
-        path: "senior",
-        element: <Senior/>,
-      },
-    ], 
+    element: <Splish />,
   },
-  {
-    path: "app",
-    element: <App />,
-  },
+  {path: "splishsplash",
+    element: <SplishSplash />,
+      children: [
+        {
+          path: "mind",
+          element: <Mind />,
+        },
+        {
+          path: "the",
+          element: <The />,
+        },
+        {
+          path: "gap",
+          element: <Gap />,
+        },
+      ],
+    },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

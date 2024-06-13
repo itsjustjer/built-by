@@ -12,6 +12,9 @@
     width: 400px;
     height: 800px;
     border: solid orange 3px;
+    display: grid;
+    grid-template-rows: 10% 60% 30%;
+    grid-template-columns: 1fr;
 }
 .splishsplashDiv p {
     color: antiquewhite;
@@ -20,19 +23,69 @@
 .splish-NavLink {
     color: antiquewhite;
     text-decoration: none;
+    text-align: center;
 }
-
+.splish-NavLink:hover {
+    color: black;
+}
+.splish-NavLink2 {
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+}
+.splish-NavLink2:hover {
+    color: black;
+}
+.mind-section {
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+}
+.mind-section:hover {
+    background-color: orange;
+    color: black;
+}
+.gap-section {
+    height: 100%;
+    position: relative;
+    top: -0.10em;
+    text-align: center;
+}
+.gap-section:hover {
+    background-color: orange;
+}
 .outlet-section {
-    height: 450px;
+
     border: solid red 3px;
 }
 
-.gapGap p {
+.gapGap {
+    display: grid;
     color: antiquewhite;
     font-size: 1em;
     place-self: center;
+    background-color: rgb(0, 0, 0);
+ 
 }
-
+.bungIMG {
+  
+        width: 100%;
+        position: relative;
+        top: 25%;
+        left: 0%;
+        transform:scale(2);
+        
+      }
+      .mooIMG {
+  
+        width: 100%;
+        position: relative;
+        top: 25%;
+        left: 0%;
+        transform:scale(1.15);
+        
+      }
 .pFunk {
     color: rgb(57, 57, 57, 0.5);
 }
+

@@ -1,0 +1,43 @@
+Eloquent JavaScript
+
+Third Edition
+
+A Modern Introduction to Programming
+
+hancock: Marijn Haverbeke
+
+Brief Contents
+Introduction .. "1"
+
+Part I: Language
+
+Chapter 1: Values, Types, and Operators "11"
+Chapter 2: Program Structure "23"
+Chapter 3: Functions "41"
+Chapter 4: Data Structures: Objects and Arrays "59"
+Chapter 5: Higher-Order Functions "83"
+Chapter 6: The Secret Life of Objects "97"
+Chapter 7: Project: A Robot "117"
+Chapter 8: Bugs and Errors "129"
+Chapter 9: Regular Expressions "145"
+Chapter 10: Modules "167"
+Chapter 11: Asynchronous Programming "181"
+Chapter 12: Project: A Programming Language "203"
+
+Part II: Browser
+
+Chapter 13: JavaScript and the Browser "219"
+Chapter 14: The Document Object Model "227"
+Chapter 15: Handling Events "247"
+Chapter 16: Project: A Platform Game "265"
+Chapter 17: Drawing on Canvas "287"
+Chapter 18: HTTP and Forms "311"
+Chapter 19: Project: A Pixel Art Editor "333"
+
+Part III: Node
+
+Chapter 20: Node.js "353"
+Chapter 21: Project: Skill-sharing Website "371"
+Chapter 22: JavaScript and Performance "391"
+Exercise Hints: "407"
+Index: "429"

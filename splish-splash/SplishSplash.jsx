@@ -1,5 +1,7 @@
 import './splish.css';
 import { NavLink, Outlet } from "react-router-dom";
+
+
 let kitty ="fuck-nah";
 export default function SplishSplash() {
     return (
@@ -7,7 +9,7 @@ export default function SplishSplash() {
        <div className="splishsplashDiv">
         <section className="mind-section">
             <NavLink to="mind"
-            className="splish-NavLink">      
+            className="splish-NavLink2">      
 Mind The Gap.
             </NavLink>
         </section>
