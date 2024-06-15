@@ -1,0 +1,101 @@
+.chapBox {
+    width: 400px;
+    height: 1000px;
+    border: solid rgb(0, 0, 0) 3px;
+
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-columns: 0.5fr 6fr 0.5fr;
+    grid-gap:5px;
+    outline: solid darkgrey 3px;
+    outline-offset:3px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.chapBox > header {
+
+    width: 400px;
+    height: 40px;
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+}
+
+.chapBox > aside {
+  
+    width: 24px;
+    height: 640px;
+}
+
+.chapBox > main {
+    border: solid pink 3px;
+    width: 340px;
+    height: 920px;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+.chapBox > footer {
+ 
+    width: 400px;
+    height: 80px;
+    grid-row: 3 / 4;
+    grid-column: 1 / 4;
+}
+
+.chapMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.sectionB {
+    grid-row: 3 / 5;
+    grid-column: 1 / 5;
+    border: solid rgb(202, 202, 202) 3px;
+    background-color: black;
+    color: rgb(255, 212, 219);
+    font-size: 1.05em;
+    outline: solid black 3px;
+    outline-offset: 3px;
+    letter-spacing: 3px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+.sectionA {
+    grid-row: 1 / 3;
+    grid-column: 1 / 5;
+    border: solid rgb(53, 53, 53) 3px;
+    background-color: pink;
+    color: black;
+    font-size: 1.05em;
+    outline: solid black 3px;
+    outline-offset: 3px;
+    letter-spacing: 3px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+.chappSection1 {
+    border: solid rgb(97, 97, 97) 3px;
+    font-weight: 800;
+    grid-row: 1 / 2;
+}
+.chappSection2 {
+    border: solid rgb(65, 65, 65) 3px;
+    font-weight: 800;
+    grid-row: 2 / 3;
+}
+
+.chappSection3 {
+    border: solid rgb(73, 73, 73) 3px;
+    font-weight: 800;
+    grid-row: 3 / 4;
+}
+.chappSection4 {
+    border: solid black 3px;
+    font-weight: 800;
+    grid-row: 4 / 5;
+}

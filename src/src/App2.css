@@ -1,0 +1,127 @@
+.newbox {
+  width: 1200px;
+  height: 800px;
+  background-color: rgb(179, 179, 209);
+}
+
+.newboxCard {
+  background-color: rgb(255, 187, 187);
+  margin: 1%;
+}
+.newboxCard > p {
+  font-size: 24px;
+  background-color: white;
+  margin: 1%;
+}
+/* css for App.jsx global scope*/
+.appMain {
+  width: 2000px;
+  border: solid black 1px;
+  background-color: pink;
+ 
+  margin: 0 auto;
+}
+.panels {
+  background-color: red;
+  width: 1200px;
+  grid-row: 2 / 3;
+  grid-column: 2 / 4;
+}
+.outerWrapper {
+  background-color: purple;
+  width: 1550px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 400px, 1fr;
+}
+.panelBubble {
+  grid-row: 1 / 2;
+  grid-column: 2 / 5;
+  background-color: black;
+}
+.calciferBox {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  background-color: rgb(255, 0, 191);
+  padding: 1em;
+  border: solid black 5px;
+}
+/* first layer .panel2 */
+.panel2 {
+  width: 1150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px, 1fr;
+  background-color: grey;
+  place-items: center;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  margin: 5%;
+  align-content: 'space-evenly';
+  justify-self: center;
+  
+}
+.panel2 > h2 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  text-align: center;
+  background-color: white;
+}
+
+.panel1 > h3 {
+  background-color: rgb(241, 241, 236);
+  font-weight: 800;
+  text-align: center;
+  padding: 1em;
+  margin-left: 20%;
+  border-radius: 50%;
+  width: 50%;
+}
+
+.panel1 > button {
+  margin-left: 30%;
+  padding: 3em;
+  place-self: center;
+}
+
+.panel1 > p {
+  text-align: center;
+  font-size: 24px;
+}
+.description1 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-color: rgb(123, 0, 255);
+}
+
+.description1 > h3 {
+  background-color: white;
+  text-align: center;
+  font-size: 32px;
+}
+
+.description1 > p {
+  background-color: white;
+  text-align: center;
+  font-size: 24px;
+}
+/* second layer .panel1 .explanation1 */
+.panel1 {
+  background-color: white;
+  width: 350px;
+  height: 200px;
+  border: solid black 1px;
+  
+}
+
+.panel1:active {
+  border: solid red 3px;
+}
+.explanation1 {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+  background-color: orange;
+  margin: 5%;
+  width: 350px;
+  height: 200px;
+}
