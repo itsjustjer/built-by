@@ -3,7 +3,7 @@ export default function Four() {
         <>
         <div className="four-box">
         <h1> Four</h1>
-        <p> 37em by 54em</p>
+        <p> 350px by 565px</p>
         </div>
        
         </>
