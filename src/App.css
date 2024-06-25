@@ -1,7 +1,7 @@
 #root {
   font-size: 10px;
-  width: 30em;
-  height: 50em;
+  width: 40em;
+  height: 60em;
   border: solid black 1px;
 }
 
@@ -54,11 +54,12 @@
 }
 
 .four-box {
-  width: 27em;
-  height: 44em;
+  width: 380px;
+  height: 530px;
   background-color: purple;
   margin: 0 auto;
   color: white;
-  
+  font-size: 3em;
+  margin-top: -5%;
 }
 
