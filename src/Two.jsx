@@ -3,7 +3,7 @@ export default function Two() {
         <>
           <div className="two-box">
           <h1> Two</h1>
-            <p> 15em by 20em</p>
+            <p> 24em by 38em</p>
           </div>
        
         </>

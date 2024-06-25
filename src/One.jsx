@@ -3,7 +3,7 @@ export default function One() {
         <>
         <div className="one-box">
         <h1> One</h1>
-        <p> 20em by 30em </p>
+        <p>25em by 40em </p>
         </div>
       
         </>
